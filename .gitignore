@@ -89,7 +89,7 @@ csx
 AppPackages/
 
 # Design文件夹
-[Dd]esign
+[Dd]esign/
 
 # Others
 [Bb]in
