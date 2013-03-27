@@ -88,9 +88,6 @@ csx
 # Windows Store app package directory
 AppPackages/
 
-# Design文件夹
-[Dd]esign
-
 # Others
 [Bb]in
 [Oo]bj
