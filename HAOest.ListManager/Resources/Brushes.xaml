@@ -1,0 +1,57 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<!--Control colors.-->
+
+<!--Border colors-->
+<SolidColorBrush x:Key="ListBoxItemBackground" Color="#BBFFF5C4"/>
+<SolidColorBrush x:Key="ListBoxHeaderBrush" Color="#CCF9ECA8"/>
+<SolidColorBrush x:Key="ListBoxSelectedItemBackground" Color="#AAaad4ff"/>
+<SolidColorBrush x:Key="ListBoxItemsDividingLineBrush" Color="#FFE3D5B2"/>
+<LinearGradientBrush x:Key="CloseButtonMouseOverBackground" EndPoint="0.5,1" StartPoint="0.5,0">
+	<GradientStop Color="#FFCA0000" Offset="0"/>
+	<GradientStop Color="#00CA0000" Offset="1"/>
+</LinearGradientBrush>
+<SolidColorBrush x:Key="WindowBorderBrush" Color="#FF9D4100"/>
+<LinearGradientBrush x:Key="CloseButtonPressedBackground" EndPoint="0.5,1" StartPoint="0.5,0">
+	<GradientStop Color="#FF7C0000" Offset="0"/>
+	<GradientStop Color="#007C0000" Offset="1"/>
+</LinearGradientBrush>
+<LinearGradientBrush x:Key="CloseButtonMouseOverBorderBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+	<GradientStop Color="White"/>
+	<GradientStop Offset="1"/>
+</LinearGradientBrush>
+<LinearGradientBrush x:Key="CloseButtonBackground" EndPoint="0.5,1" StartPoint="0.5,0">
+	<GradientStop Color="#55FF0000" Offset="0.004"/>
+	<GradientStop Color="#00FF0000" Offset="1"/>
+</LinearGradientBrush>
+<LinearGradientBrush x:Key="CloseButtonBorderBrush" EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+	<GradientStop Color="#55FFFFFF"/>
+	<GradientStop Offset="1"/>
+</LinearGradientBrush>
+<LinearGradientBrush x:Key="MinimizeButtonBackground" EndPoint="0.5,1" StartPoint="0.5,0">
+	<GradientStop Color="#55805200"/>
+	<GradientStop Offset="1" Color="#00805200"/>
+</LinearGradientBrush>
+<LinearGradientBrush x:Key="MinimizeButtonMouseOverBackground" EndPoint="0.5,1" StartPoint="0.5,0">
+	<GradientStop Color="#FF805200" Offset="0"/>
+	<GradientStop Color="#00805200" Offset="1"/>
+</LinearGradientBrush>
+<LinearGradientBrush x:Key="MinimizeButtonPressedBackground" EndPoint="0.5,1" StartPoint="0.5,0">
+	<GradientStop Color="#FF4B3000" Offset="0"/>
+	<GradientStop Color="#004B3000" Offset="1"/>
+</LinearGradientBrush>
+<SolidColorBrush x:Key="BackgroundBrush_LightYellow" Color="#FFFCFFC2"/>
+<SolidColorBrush x:Key="BorderBrush_Green" Color="#FF00A346"/>
+<SolidColorBrush x:Key="BorderBrush_Grey" Color="#FF8D8D8D"/>
+<SolidColorBrush x:Key="ButtonBackgroundBrush_Green" Color="#FF68A446"/>
+<SolidColorBrush x:Key="ButtonBackgroundBrush_Yellow" Color="#FFF4B300"/>
+<SolidColorBrush x:Key="ButtonBackgroundBrush_Yellow_Pressed" Color="#FFD49C00"/>
+<SolidColorBrush x:Key="ButtonBackgroundBrush_Grey" Color="#FFB2B2B2"/>
+<SolidColorBrush x:Key="HyperlinkForeground" Color="#FF003964"/>
+<SolidColorBrush x:Key="HyperlinkMouseOverForeground" Color="#FF006AA1"/>
+<SolidColorBrush x:Key="BorderBrush_Blue" Color="#FF5B85FF"/>
+<SolidColorBrush x:Key="BackgroundBrush_Grey" Color="#FFFDFFD0"/>
+<!--Control-specific resources.-->
+
+</ResourceDictionary>

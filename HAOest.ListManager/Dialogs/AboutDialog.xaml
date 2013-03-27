@@ -1,0 +1,24 @@
+﻿<Window x:Name="aboutDialog" x:Class="HAOest.ListManager.Dialogs.AboutDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         Height="336" Width="541" AllowsTransparency="True" WindowStyle="None" Style="{DynamicResource MainWindowStyle}"  BorderBrush="#FF007ACC" BorderThickness="1" WindowStartupLocation="CenterOwner" MouseLeftButtonDown="AboutDialog_MouseLeftButtonDown" ShowInTaskbar="False" >
+        <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="310*"/>
+            <ColumnDefinition Width="219*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="40"/>
+            <RowDefinition/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+            <Grid  Style="{DynamicResource TopTitleBarStyle}" Grid.ColumnSpan="2">
+                <TextBlock Style="{DynamicResource BoldTextBlockStyle}" Text="关于"></TextBlock>
+            <Button x:Name="btnClose" Style="{DynamicResource CloseButtonStyle}" Click="btnClose_Click" Margin="489,0,0,4"/>
+        </Grid>
+        <Image Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,20,0" Grid.Row="2" VerticalAlignment="Top" Source="/ListManager;component/Resources/Icon.png" Width="160"/>
+        <Image HorizontalAlignment="Left" Margin="20,0,40,0" Grid.Row="2" VerticalAlignment="Top" Source="/ListManager;component/Resources/About.png"/>
+
+    </Grid>
+</Window>
