@@ -1,4 +1,4 @@
 ListManager
 ===========
 
-ListManager 列表管理员 by HADB&amp;Xiaotian
+ListManager 列表管理员 by HADB
